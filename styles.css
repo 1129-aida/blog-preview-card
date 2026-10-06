@@ -16,3 +16,84 @@
     --basic-text:#111111;
     --card-background:#FFFFFF;
 }
+
+body{
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    color: var(--basic-text);
+}
+
+main {
+    display: grid;
+    background-color: var(--card-background);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 24px;
+    gap: 24px;
+    border: 1px solid var(--basic-text) ;
+    width: clamp(327px, calc(307px + 6.25vw), 382px);
+    box-shadow: 8px 8px black;
+}
+
+.illustration {
+    border-radius: 10px;
+    width: clamp(279px, calc(258px + 6.5vw), 336px);
+}
+
+h1 {
+    background-color: var(--background-color);
+    font-size: clamp(12px, calc(11px + 0.2vw), 14px);
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+p {
+    font-size: clamp(12px, calc(11px + 0.2vw), 14px);
+    
+}
+
+h2 {
+    font-weight: 800;
+    font-size: clamp(20px, calc(18px + 0.4vw), 24px);
+
+}
+h2:hover {
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.gray {
+    color: var(--text-color);
+    font-size: clamp(14px, calc(13px + 0.2vw), 16px);
+}
+
+.author {
+    display: grid;
+    grid-template-columns: 32px 85px;
+    width: 129px;
+    height: 32px;
+    justify-content: space-between;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+}
+
+.author p {
+    font-weight: 800;
+    align-self: center;
+    margin: 0;
+}
