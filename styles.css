@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./fonts/Figtree-Medium.woff2) format(woff2);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(./fonts/Figtree-ExtraBold.woff2) format(woff2);
+    font-weight: 800;
+}
+
+:root{
+    --background-color:#F4D04E;
+    --text-color:#6B6B6B;
+    --basic-text:#111111;
+    --card-background:#FFFFFF;
+}
