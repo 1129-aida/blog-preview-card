@@ -41,7 +41,9 @@ main {
 
 .illustration {
     border-radius: 10px;
+    height: 200px;
     width: clamp(279px, calc(258px + 6.5vw), 336px);
+    overflow: hidden;
 }
 
 h1 {
