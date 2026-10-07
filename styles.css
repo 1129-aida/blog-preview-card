@@ -35,7 +35,7 @@ main {
     padding: 24px;
     gap: 24px;
     border: 1px solid var(--basic-text) ;
-    width: clamp(327px, calc(307px + 6.25vw), 382px);
+    width: clamp(327px, calc(307px + 6.25vw), 384px);
     box-shadow: 8px 8px black;
 }
 
@@ -63,7 +63,6 @@ h1 {
 
 p {
     font-size: clamp(12px, calc(11px + 0.2vw), 14px);
-    
 }
 
 h2 {
