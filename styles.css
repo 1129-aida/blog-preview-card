@@ -79,6 +79,7 @@ h2:hover {
 .gray {
     color: var(--text-color);
     font-size: clamp(14px, calc(13px + 0.2vw), 16px);
+    margin: 0;
 }
 
 .author {
